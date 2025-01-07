@@ -1,0 +1,11 @@
+/* CSS RESET */
+@import url('./reset.css');
+
+
+@import url('https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css');
+
+@import url('./colors.css');
+@import url('./typography.css');
+
+@import url('./components/header.css');
+@import url('./components/footer.css');
