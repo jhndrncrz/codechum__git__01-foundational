@@ -1,11 +1,39 @@
 /* CSS RESET */
-@import url('./reset.css');
+@import url("reset.css");
 
+@import url("https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css");
 
-@import url('https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css');
+@import url("colors.css");
+@import url("typography.css");
+@import url("spacing.css");
 
-@import url('./colors.css');
-@import url('./typography.css');
+@import url("components/header.css");
+@import url("components/footer.css");
 
-@import url('./components/header.css');
-@import url('./components/footer.css');
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100%;
+    min-height: 100vh;
+
+    width: 100%;
+}
+
+#logo, .logo {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-heading), sans-serif;
+    color: var(--color--primary-000);
+}
+
+.button {
+    font-family: var(--font-heading), sans-serif;
+    padding: var(--spacing-md);
+    border: none;
+    border-radius: var(--radius-sm);
+
+    background-color: var(--color--primary-500);
+    color: var(--color--primary-000);
+}

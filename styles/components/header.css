@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    padding: var(--spacing-xxl) var(--spacing-xxl);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--color--primary-500);
+}
+
+.navigation-top__list, .calls-to-action__list {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-lg);
+}
+
+.call-to-action-item {
+    border-radius: var(--radius-sm);
+    padding: var(--spacing-xl);
+
+    background-color: var(--color--secondary-500);
+}
+
+.call-to-action-item a {
+    color: var(--color--secondary-000);
+    text-decoration: none;
+}

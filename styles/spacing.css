@@ -1,0 +1,29 @@
+:root {
+    --spacing-none: 0rem;
+    --spacing-xs: 0.125rem;
+    --spacing-sm: 0.25rem;
+    --spacing-md: 0.5rem;
+    --spacing-lg: 0.75rem;
+    --spacing-xl: 1rem;
+    --spacing-xxl: 2rem;
+}
+
+:root {
+    --radius-none: 0rem;
+    --radius-xs: 0.1rem;
+    --radius-sm: 0.5rem;
+    --radius-md: 1rem;
+    --radius-lg: 2rem;
+    --radius-xl: 4rem;
+    --radius-xxl: 8rem;
+}
+
+:root {
+    --shadow-none: 0rem;
+    --shadow-xs: 0.1rem;
+    --shadow-sm: 0.5rem;
+    --shadow-md: 1rem;
+    --shadow-lg: 2rem;
+    --shadow-xl: 4rem;
+    --shadow-xxl: 8rem;
+}

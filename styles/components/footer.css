@@ -1,0 +1,25 @@
+.divider {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    padding: var(--spacing-xxl) var(--spacing-xxl);
+    background-color: var(--color--primary-500);
+    color: var(--color--primary-000);
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--color--primary-200);
+}
+
+.footer a:hover {
+    color: var(--color--secondary-100);
+}
