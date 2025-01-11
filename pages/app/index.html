@@ -5,45 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pomofire</title>
 
-    <link rel="stylesheet" href="../../styles">
+    <script type="module" src="../../scripts/global.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header header--app">
-        <div id="logo">
-            Pomofire
-        </div>
+    <div class="container">
+        <header class="header header--app">
+            <div id="logo">
+                Pomofire
+            </div>
 
-        <nav class="navigation-top">
-            <ul class="navigation-top__list">
-                <li class="navigation-top__item">
-                    <span>Home</span>
-                </li>
-                <li class="navigation-top__item">
-                    <span>Statistics</span>
-                </li>
-                <li class="navigation-top__item">
-                    <span>Preferences</span>
-                </li>
-                <li class="navigation-top__item">
-                    <span>Your Profile</span>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            <nav class="navigation-top">
+                <ul class="navigation-top__list">
+                    <li class="navigation-top-item">
+                        <span>Home</span>
+                    </li>
+                    <li class="navigation-top-item">
+                        <span>Statistics</span>
+                    </li>
+                    <li class="navigation-top-item">
+                        <span>Preferences</span>
+                    </li>
+                    <li class="navigation-top-item">
+                        <span>Your Profile</span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <main id="app">
+        <main id="app">
+            <section class="page">
+                <div class="timer">
+                    <div class="timer-modes">
+                        <ul class="timer-modes__list">
+                            <li class="timer-mode">
+                                <button id="timer-mode--focus" class="timer-mode__button">
+                                    Focus
+                                </button>
+                            </li>
+                            <li class="timer-mode">
+                                <button id="timer-mode--short-break" class="timer-mode__button">
+                                    Short Break
+                                </button>
+                            </li>
+                            <li class="timer-mode">
+                                <button id="timer-mode--long-break" class="timer-mode__button">
+                                    Long Break
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
 
-    </main>
+                    <div class="timer-controls">
+                        <ul class="timer-controls__list">
+                            <li class="timer-control">
+                                <button id="timer-control--start" class="timer-control__button">
 
-    <footer class="footer">
-        <hr class="divider">
+                                </button>
+                            </li>
+                        </ul>
 
-        <p>
-            &copy; 2025 Pomofire. All rights reserved.
-        </p>
-        <p>
-            Designed with love by <a href="https://www.linkedin.com/in/jhndrncrz">John Adrian Cruz</a>.
-        </p>
-    </footer>
+                    </div>
+                </div>
+
+                <section class="tasks">
+                    <h1 class="tasks-title"></h1>
+
+                    <ul class="tasks__list">
+
+                    </ul>
+
+                    <button class="button button--create-task">
+                        Add Task
+                    </button>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <hr class="divider">
+
+            <p>
+                &copy; 2025 Pomofire. All rights reserved.
+            </p>
+            <p>
+                Designed with love by <a href="https://www.linkedin.com/in/jhndrncrz">John Adrian Cruz</a>.
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
