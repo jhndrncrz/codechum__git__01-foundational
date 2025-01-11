@@ -25,8 +25,7 @@ Pomofire is a productivity web application that combines a Pomodoro timer with a
 
 ### Prerequisites
 
-1. [Node.js](https://nodejs.org/) installed (optional for local development with live server).
-2. A Supabase account and a project set up.
+1A Supabase account and a project set up.
 
 ### Steps
 
@@ -42,16 +41,8 @@ Pomofire is a productivity web application that combines a Pomodoro timer with a
     - Create a database table for storing tasks with the structure specified in DATABASE.md.
     - Set up Row-Level Security (RLS) policies to ensure users can only access their own data.
 
-3. **Add Supabase Credentials**:
-    - Create a `.env` file (if hosting locally) or update environment variables for your hosting platform.
-    - Add the following keys:
-      ```env
-      SUPABASE_URL=<your-supabase-url>
-      SUPABASE_ANON_KEY=<your-supabase-anon-key>
-      ```
-
-4. **Serve the App Locally (Optional)**:
-    Use a live server to view the app in your browser:
+3**Serve the App Locally (Optional)**:
+    Use a live server to view the app in your browser, for example:
     ```bash
     npm run dev
     ```
@@ -104,7 +95,7 @@ Contributions are welcome! If you find a bug or have a feature request, feel fre
 
 ## License
 
-This project is currently not licensed under any license. For future reference, see the [LICENSE](LICENSE) file for details.
+This project is currently not licensed under any license.
 
 ## Acknowledgments
 
@@ -114,3 +105,6 @@ This project is currently not licensed under any license. For future reference, 
 ---
 
 Start staying productive with **Pomofire**! 🚀
+
+## Note
+This project is not intended for practical usage. This is primarily an experimental project for learning practical web development concepts. Do not use as for the time being. 
